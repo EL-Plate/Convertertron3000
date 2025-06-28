@@ -1,10 +1,24 @@
 [project]
 name = "convertertron"
 version = "0.1.0"
-description = "Add your description here"
+description = "Small applicationt to convert various things"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "customtkinter>=5.2.2",
     "ruff>=0.12.1",
 ]
+
+[tool.ruff]
+line-length = 200
+exclude = [
+    "venv",
+]
+
+[tool.ruff.lint]
+ignore = ["E203"]
+select = ["E", "F", "W", "C90"]
+
+[tool.black]
+line-length = 200  # max line length
+target-version = ["py312"]  # target python version

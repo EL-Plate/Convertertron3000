@@ -9,7 +9,7 @@ app.geometry("800x800")
 
 
 def button_function():
-    customtkinter.set_default_color_theme("blue")
+    print("clicked")
 
 
 custom_button = customtkinter.CTkButton(master=app, text="Colour Changer", command=button_function)

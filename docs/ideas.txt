@@ -1,0 +1,5 @@
+ascii conversion 
+colour conversion ie. hex to tuple 
+m3 to kwh 
+weights, imperial to metric
+etc etc...
